@@ -1,5 +1,4 @@
 import './input.module.scss'
-
 import PropTypes from "prop-types"
 
 const Input = ({ name, type, label, formik, ...props }) => {

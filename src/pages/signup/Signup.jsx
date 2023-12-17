@@ -1,11 +1,8 @@
 import Auth from "../../components/auth/Auth";
 import Input from "../../components/input/Input";
-
 import styles from './signup.module.scss'
-
 import * as Yup from 'yup';
 import { useFormik } from "formik"
-
 import { useUserData } from "../../hooks/useUserData";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../data/routes";

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useUserData } from '../../hooks/useUserData'
 import styles from './dashboard.module.scss'
-import { dashboard } from '../../data/dashboard'
+import { USER_DATA_TABLE } from '../../data/dashboard'
 
 const Dashboard = () => {
     const [user, setUser] = useState(null)
@@ -19,7 +19,7 @@ const Dashboard = () => {
                     <table className={styles['table']}>
                         <tbody>
                             {
-                                dashboard?.map((data, index) => {
+                                USER_DATA_TABLE?.map((data, index) => {
                                     return <tr key={index}>
                                         <td>{data.label}</td>
                                         <td>{user?.[data.field]}</td>
