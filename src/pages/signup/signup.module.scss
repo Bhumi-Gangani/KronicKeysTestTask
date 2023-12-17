@@ -1,0 +1,28 @@
+.signup-container {
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        min-height: 45vh;
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 5px;
+        }
+    }
+
+    .link-container {
+        margin-top: 10px;
+
+        .link {
+            color: blue;
+            text-decoration: none;
+        }
+    }
+}
